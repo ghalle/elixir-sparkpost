@@ -27,7 +27,7 @@ defmodule SparkPost.Mixfile do
     [
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
       {:httpotion, "~> 2.1.0"},
-      {:poison, "~> 1.5"},
+      {:poison, "~> 2.2.0"},
       {:mock, "~> 0.1.1", only: :test},
       {:excoveralls, "~> 0.4", only: :test},
       {:credo, "~> 0.2", only: [:dev, :test]},
